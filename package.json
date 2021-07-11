@@ -1,0 +1,23 @@
+{
+  "name": "my-professional-readme-",
+  "version": "1.0.0",
+  "description": "READme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Djenkins88/My-Professional-Readme-.git"
+  },
+  "keywords": [],
+  "author": "Dominque Jenkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Djenkins88/My-Professional-Readme-/issues"
+  },
+  "homepage": "https://github.com/Djenkins88/My-Professional-Readme-#readme",
+  "dependencies": {
+    "inquirer": "^8.1.1"
+  }
+}
