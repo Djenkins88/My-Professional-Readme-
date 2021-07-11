@@ -16,7 +16,7 @@ inquirer
         },
         {
             type: 'input',
-            name: 'install',
+            name: 'installation',
             message: "Describe the installation process?",
         },
         {
@@ -26,12 +26,12 @@ inquirer
         },
         {
             type: 'name',
-            name: 'Contributing',
+            name: 'contributing',
             message: "Who are the contributors to this project?",
         },
         {
             type: 'input',
-            name: 'test',
+            name: 'tests',
             message: "How would you run test for this project?",
         },
         {
@@ -63,7 +63,8 @@ inquirer
 // using .then to return data then setting up Readme file 
 .then((answers) => {
     const newFile = 'README.md';
-    const readMeContent =  `# ${answers.title}
+    const readMeContent =  `
+     ${answers.title}
     
 
     ![license](https://img.shields.io/badge/License-${answers.license}-brightgreen)
@@ -93,7 +94,7 @@ inquirer
  ${answers.tests}
 
  ## Questions
- ${answers.Questions}
+ If you have any questions you can message using GitHub or Email.
  
  Find me on GitHub: https://github.com/${answers.username}
 

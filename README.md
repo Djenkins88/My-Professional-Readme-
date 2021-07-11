@@ -1,7 +1,8 @@
-# undefined
+
+    # undefined
     
 
-    ![license](https://img.shields.io/badge/License-Apache-brightgreen)
+    ![license](https://img.shields.io/badge/License-MIT-brightgreen)
 
  ## Table of Contents
  * [Description](#Description)
@@ -13,13 +14,13 @@
  * [Questions](#Questions)
 
  ## Description
- dfgdgdd
+ ReadMe Generator is an automated tool to generate a readme file for your projects.
         
  ## Installation
  undefined
 
  ## Usage
- dfhdsh
+ Once you have finished the setup and installation you can start using the application.
 
  ## Contributing
  undefined
@@ -28,11 +29,11 @@
  undefined
 
  ## Questions
- undefined
+ If you have any questions you can message using GitHub or Email.
  
  Find me on GitHub: https://github.com/undefined
 
- Email: dfhdsh
+ Email: DominqueJenkins14@gmail.com
 
  ## License
- Apache
+ MIT
