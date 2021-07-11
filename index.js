@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-
+// using inquirer to prompt user for questions
 inquirer
     .prompt([
         {
@@ -60,7 +60,7 @@ inquirer
             message: "Enter your email?",
         },
     ])
-
+// using .then to return data then setting up Readme file 
 .then((answers) => {
     const newFile = 'README.md';
     const readMeContent =  `# ${answers.title}
@@ -102,6 +102,7 @@ inquirer
  ## License
  ${answers.license}`
 
+ // checking if there are any errors
     fs.writeFile(newFile, readMeContent, (err) => {
     if (err) {
         console.log(err);
