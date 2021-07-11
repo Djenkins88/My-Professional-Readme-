@@ -1,5 +1,5 @@
 
-    # undefined
+      ReadMe Generator.
     
 
     ![license](https://img.shields.io/badge/License-MIT-brightgreen)
@@ -14,24 +14,24 @@
  * [Questions](#Questions)
 
  ## Description
- ReadMe Generator is an automated tool to generate a readme file for your projects.
+     ReadMe Generator is an automated tool to generate a readme markdown file for your projects.
         
  ## Installation
- undefined
+ You can fork or download the repo from Github and you'll need Node.JS installed on your machine (You can type `node -v` in your terminal), if you don't have it you will need to install it first.
 
  ## Usage
- Once you have finished the setup and installation you can start using the application.
+ Once you have finished the setup and installation you can use the application freely.
 
  ## Contributing
- undefined
+ Dominque Jenkins.
 
  ## Tests
- undefined
+ You can try running the application with different input values following the installation.
 
  ## Questions
  If you have any questions you can message using GitHub or Email.
  
- Find me on GitHub: https://github.com/undefined
+ Find me on GitHub: https://github.com/Djenkins88
 
  Email: DominqueJenkins14@gmail.com
 

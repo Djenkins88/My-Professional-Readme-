@@ -6,7 +6,7 @@ inquirer
     .prompt([
         {
             type: 'input',
-            name: 'name',
+            name: 'title',
             message: "Enter your project title?",
         },
         {
@@ -51,7 +51,7 @@ inquirer
         },
         {
             type: 'input',
-            name: 'Gihub',
+            name: 'GithubName',
             message: "Enter your GitHub username?",
         },
         {
@@ -96,7 +96,7 @@ inquirer
  ## Questions
  If you have any questions you can message using GitHub or Email.
  
- Find me on GitHub: https://github.com/${answers.username}
+ Find me on GitHub: https://github.com/${answers.GithubName}
 
  Email: ${answers.email}
 
